@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{88E7A777-21C2-3490-BA93-696BDEDBCD89}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ftxui-starter</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\DEVELOP\CODE\FTXUI\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ftxui-starter.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ftxui-starter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\DEVELOP\CODE\FTXUI\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ftxui-starter.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ftxui-starter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\DEVELOP\CODE\FTXUI\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ftxui-starter.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ftxui-starter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\DEVELOP\CODE\FTXUI\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ftxui-starter.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ftxui-starter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\ftxui-build\Debug\ftxui-screen.lib;_deps\ftxui-build\Debug\ftxui-dom.lib;_deps\ftxui-build\Debug\ftxui-component.lib;_deps\ftxui-build\Debug\ftxui-dom.lib;_deps\ftxui-build\Debug\ftxui-screen.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/DEVELOP/CODE/FTXUI/build/Debug/ftxui-starter.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/DEVELOP/CODE/FTXUI/build/Debug/ftxui-starter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\ftxui-build\Release\ftxui-screen.lib;_deps\ftxui-build\Release\ftxui-dom.lib;_deps\ftxui-build\Release\ftxui-component.lib;_deps\ftxui-build\Release\ftxui-dom.lib;_deps\ftxui-build\Release\ftxui-screen.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/DEVELOP/CODE/FTXUI/build/Release/ftxui-starter.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/DEVELOP/CODE/FTXUI/build/Release/ftxui-starter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\ftxui-build\MinSizeRel\ftxui-screen.lib;_deps\ftxui-build\MinSizeRel\ftxui-dom.lib;_deps\ftxui-build\MinSizeRel\ftxui-component.lib;_deps\ftxui-build\MinSizeRel\ftxui-dom.lib;_deps\ftxui-build\MinSizeRel\ftxui-screen.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/DEVELOP/CODE/FTXUI/build/MinSizeRel/ftxui-starter.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/DEVELOP/CODE/FTXUI/build/MinSizeRel/ftxui-starter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\ftxui-build\RelWithDebInfo\ftxui-screen.lib;_deps\ftxui-build\RelWithDebInfo\ftxui-dom.lib;_deps\ftxui-build\RelWithDebInfo\ftxui-component.lib;_deps\ftxui-build\RelWithDebInfo\ftxui-dom.lib;_deps\ftxui-build\RelWithDebInfo\ftxui-screen.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/DEVELOP/CODE/FTXUI/build/RelWithDebInfo/ftxui-starter.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/DEVELOP/CODE/FTXUI/build/RelWithDebInfo/ftxui-starter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\DEVELOP\CODE\FTXUI\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/DEVELOP/CODE/FTXUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -SE:/DEVELOP/CODE/FTXUI -BE:/DEVELOP/CODE/FTXUI/build --check-stamp-file E:/DEVELOP/CODE/FTXUI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FetchContent.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindGit.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/DEVELOP/CODE/FTXUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -SE:/DEVELOP/CODE/FTXUI -BE:/DEVELOP/CODE/FTXUI/build --check-stamp-file E:/DEVELOP/CODE/FTXUI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FetchContent.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindGit.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/DEVELOP/CODE/FTXUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -SE:/DEVELOP/CODE/FTXUI -BE:/DEVELOP/CODE/FTXUI/build --check-stamp-file E:/DEVELOP/CODE/FTXUI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FetchContent.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindGit.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/DEVELOP/CODE/FTXUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -SE:/DEVELOP/CODE/FTXUI -BE:/DEVELOP/CODE/FTXUI/build --check-stamp-file E:/DEVELOP/CODE/FTXUI/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FetchContent.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindGit.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Qt6\Tools\CMake_64\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\3.21.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\DEVELOP\CODE\FTXUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\DEVELOP\CODE\FTXUI\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\DEVELOP\CODE\FTXUI\build\ZERO_CHECK.vcxproj">
+      <Project>{4030C9CC-95B2-3E24-9178-0CF4D5AD2127}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-build\component.vcxproj">
+      <Project>{91C0BEF3-1094-3CED-8B18-800D8A2E8C21}</Project>
+      <Name>component</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-build\dom.vcxproj">
+      <Project>{A21D3F75-37DE-3111-B448-945FFA85512D}</Project>
+      <Name>dom</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-build\screen.vcxproj">
+      <Project>{74B06B72-5B32-38E3-87D4-C9C00520F9D8}</Project>
+      <Name>screen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

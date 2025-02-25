@@ -1,0 +1,148 @@
+^E:\DEVELOP\CODE\FTXUI\BUILD\_DEPS\FTXUI-SUBBUILD\CMAKEFILES\E34A4332FA66AC749743C52BEE3F3B8F\FTXUI-POPULATE-MKDIR.RULE
+setlocal
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E make_directory E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-src
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E make_directory E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E make_directory E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E make_directory E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E make_directory E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E make_directory E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E make_directory E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E touch E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/Debug/ftxui-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\DEVELOP\CODE\FTXUI\BUILD\_DEPS\FTXUI-SUBBUILD\CMAKEFILES\E34A4332FA66AC749743C52BEE3F3B8F\FTXUI-POPULATE-DOWNLOAD.RULE
+setlocal
+cd E:\DEVELOP\CODE\FTXUI\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -P E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/tmp/ftxui-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E touch E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/Debug/ftxui-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\DEVELOP\CODE\FTXUI\BUILD\_DEPS\FTXUI-SUBBUILD\CMAKEFILES\E34A4332FA66AC749743C52BEE3F3B8F\FTXUI-POPULATE-PATCH.RULE
+setlocal
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E touch E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/Debug/ftxui-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\DEVELOP\CODE\FTXUI\BUILD\_DEPS\FTXUI-SUBBUILD\CMAKEFILES\E34A4332FA66AC749743C52BEE3F3B8F\FTXUI-POPULATE-CONFIGURE.RULE
+setlocal
+cd E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E touch E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/Debug/ftxui-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\DEVELOP\CODE\FTXUI\BUILD\_DEPS\FTXUI-SUBBUILD\CMAKEFILES\E34A4332FA66AC749743C52BEE3F3B8F\FTXUI-POPULATE-BUILD.RULE
+setlocal
+cd E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E touch E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/Debug/ftxui-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\DEVELOP\CODE\FTXUI\BUILD\_DEPS\FTXUI-SUBBUILD\CMAKEFILES\E34A4332FA66AC749743C52BEE3F3B8F\FTXUI-POPULATE-INSTALL.RULE
+setlocal
+cd E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E touch E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/Debug/ftxui-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\DEVELOP\CODE\FTXUI\BUILD\_DEPS\FTXUI-SUBBUILD\CMAKEFILES\E34A4332FA66AC749743C52BEE3F3B8F\FTXUI-POPULATE-TEST.RULE
+setlocal
+cd E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E touch E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/Debug/ftxui-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\DEVELOP\CODE\FTXUI\BUILD\_DEPS\FTXUI-SUBBUILD\CMAKEFILES\423B03DB52CCF63891E67AB21055E01D\FTXUI-POPULATE-COMPLETE.RULE
+setlocal
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E make_directory E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E touch E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/CMakeFiles/Debug/ftxui-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -E touch E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/Debug/ftxui-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\DEVELOP\CODE\FTXUI\BUILD\_DEPS\FTXUI-SUBBUILD\CMAKEFILES\DE0ED82E4EBDF84D836C7CC871E43795\FTXUI-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\DEVELOP\CODE\FTXUI\BUILD\_DEPS\FTXUI-SUBBUILD\CMAKELISTS.TXT
+setlocal
+C:\Qt6\Tools\CMake_64\bin\cmake.exe -SE:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild -BE:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild --check-stamp-file E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

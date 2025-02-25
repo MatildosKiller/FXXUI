@@ -1,0 +1,48 @@
+﻿  Building Custom Rule E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-src/CMakeLists.txt
+  automerge.cpp
+  selection_style.cpp
+  blink.cpp
+  bold.cpp
+  border.cpp
+  box_helper.cpp
+  canvas.cpp
+  clear_under.cpp
+  color.cpp
+  composite_decorator.cpp
+  dbox.cpp
+  dim.cpp
+  flex.cpp
+  flexbox.cpp
+  flexbox_config.cpp
+  flexbox_helper.cpp
+  focus.cpp
+  frame.cpp
+  gauge.cpp
+  graph.cpp
+  Создание кода...
+  Компиляция...
+  gridbox.cpp
+  hbox.cpp
+  hyperlink.cpp
+  inverted.cpp
+  linear_gradient.cpp
+  node.cpp
+  node_decorator.cpp
+  paragraph.cpp
+  reflect.cpp
+  scroll_indicator.cpp
+  selection.cpp
+  separator.cpp
+  size.cpp
+  spinner.cpp
+  strikethrough.cpp
+  table.cpp
+  text.cpp
+  underlined.cpp
+  underlined_double.cpp
+  util.cpp
+  Создание кода...
+  Компиляция...
+  vbox.cpp
+  Создание кода...
+  dom.vcxproj -> E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-build\Debug\ftxui-dom.lib

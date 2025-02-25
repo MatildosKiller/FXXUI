@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/CMakeCXXInformation.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/CMakeGenericSystem.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/CMakeRCInformation.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/Compiler/MSVC-CXX.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/FetchContent.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/FetchContent/CMakeLists.cmake.in
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/FindGit.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/FindPackageMessage.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/Platform/Windows-MSVC.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/Platform/Windows.cmake
+C:/Qt6/Tools/CMake_64/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+E:/DEVELOP/CODE/FTXUI/CMakeLists.txt
+E:/DEVELOP/CODE/FTXUI/build/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake
+E:/DEVELOP/CODE/FTXUI/build/CMakeFiles/3.21.1/CMakeRCCompiler.cmake
+E:/DEVELOP/CODE/FTXUI/build/CMakeFiles/3.21.1/CMakeSystem.cmake

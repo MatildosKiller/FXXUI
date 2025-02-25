@@ -1,0 +1,10 @@
+﻿  Building Custom Rule E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-src/CMakeLists.txt
+  box.cpp
+  color.cpp
+  color_info.cpp
+  image.cpp
+  screen.cpp
+  string.cpp
+  terminal.cpp
+  Создание кода...
+  screen.vcxproj -> E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-build\Debug\ftxui-screen.lib

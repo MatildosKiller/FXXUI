@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-subbuild\CMakeFiles\e34a4332fa66ac749743c52bee3f3b8f\ftxui-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-subbuild\CMakeFiles\e34a4332fa66ac749743c52bee3f3b8f\ftxui-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-subbuild\CMakeFiles\e34a4332fa66ac749743c52bee3f3b8f\ftxui-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-subbuild\CMakeFiles\e34a4332fa66ac749743c52bee3f3b8f\ftxui-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-subbuild\CMakeFiles\e34a4332fa66ac749743c52bee3f3b8f\ftxui-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-subbuild\CMakeFiles\e34a4332fa66ac749743c52bee3f3b8f\ftxui-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-subbuild\CMakeFiles\e34a4332fa66ac749743c52bee3f3b8f\ftxui-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-subbuild\CMakeFiles\423b03db52ccf63891e67ab21055e01d\ftxui-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-subbuild\CMakeFiles\de0ed82e4ebdf84d836c7cc871e43795\ftxui-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\DEVELOP\CODE\FTXUI\build\_deps\ftxui-subbuild\CMakeFiles\ftxui-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C56BCBB7-390D-3597-BD5A-85C5DF2E0AE4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

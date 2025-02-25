@@ -1,0 +1,3 @@
+E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate.dir
+E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/CMakeFiles/ALL_BUILD.dir
+E:/DEVELOP/CODE/FTXUI/build/_deps/ftxui-subbuild/CMakeFiles/ZERO_CHECK.dir
